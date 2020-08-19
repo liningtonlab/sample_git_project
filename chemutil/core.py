@@ -18,4 +18,7 @@ def inchi2ikey(inchi):
 
 
 def flatten(smi):
-    return Chem.MolToSmiles(Chem.MolFromSmiles(smi))
+    return Chem.MolToSmiles(Chem.MolFromSmiles(smi), isomericSmiles=False)
+    # m = Chem.MolFromSmiles(smi)
+    # Chem.RemoveStereochemistry(m)
+    # return Chem.MolToSMiles(m)
