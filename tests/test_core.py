@@ -13,9 +13,14 @@ def test_smi2inchikey(TEST_SMI, TEST_INCHIKEY):
         assert core.smi2inchikey(smi) == TEST_INCHIKEY[idx]
 
 
-def test_flatten(TEST_SMI, TEST_FLAT_SMI):
+def test_flatten_smi(TEST_SMI, TEST_FLAT_SMI):
     for idx, smi in enumerate(TEST_SMI):
-        assert core.flatten(smi) == TEST_FLAT_SMI[idx]
+        assert core.flatten_smi(smi) == TEST_FLAT_SMI[idx]
+
+
+def test_flatten_inchi(TEST_INCHI, TEST_FLAT_SMI):
+    for idx, smi in enumerate(TEST_INCHI):
+        assert core.flatten_inchi(smi) == TEST_FLAT_SMI[idx]
 
 
 def test_inchi2smi(TEST_INCHI, TEST_SMI):

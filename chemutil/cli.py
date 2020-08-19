@@ -4,9 +4,10 @@ from .core import *
 OPTIONS = (
     "smi2inchi",
     "smi2inchikey",
-    "flatten",
+    "flatten_smi",
     "inchi2smi",
     "inchi2ikey",
+    "flatten_inchi",
 )
 
 
