@@ -17,5 +17,9 @@ def inchi2ikey(inchi):
     return Chem.InchiToInchiKey(inchi)
 
 
-def flatten(smi):
+def flatten_smi(smi):
     return Chem.MolToSmiles(Chem.MolFromSmiles(smi))
+
+
+def flatten_inchi(inchi):
+    return Chem.MolToSmiles(Chem.MolFromInchi(inchi), isomericSmiles=False)
