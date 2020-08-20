@@ -1,6 +1,6 @@
 # Sample Git Project
 
-This is a sample Git project for the Linington Lab, presentation Aug. 19, 2020.
+This is a sample Git project for the Linington Lab, presentation Aug. 19, 2020. This is now updated.
 
 #### Requirements
 
