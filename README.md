@@ -4,8 +4,7 @@ This is a sample Git project for the Linington Lab, presentation Aug. 19, 2020. 
 
 Presentation materials have been added to the repository. 
 Please see `Git, GitHub, and Version Control - Aug 19 2020.pdf`.
-The recorded Zoom meeting is available for viewing on YouTube at https://youtu.be/2jKjV2pMZFQ
-
+The recorded Zoom meeting is available for viewing on YouTube at https://youtu.be/0CuWCZkDRnc.
 
 #### Requirements
 
